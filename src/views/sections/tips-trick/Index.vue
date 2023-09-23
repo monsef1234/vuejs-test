@@ -17,9 +17,7 @@
 
 <script>
 import SvgIcon from "vue-material-design-icons/Svg.vue";
-
 import TitleTwoVue from "@/components/TitleTwo.vue";
-
 import Tips from "@/views/sections/tips-trick/tips/Tips.vue";
 
 export default {

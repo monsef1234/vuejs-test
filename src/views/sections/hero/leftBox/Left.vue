@@ -32,10 +32,14 @@
     <div class="mt-5 flex flex-col gap-2">
       <span class="text-normal text-textColorQuaternary">Our Partnership</span>
       <div class="flex items-center gap-8 flex-wrap max-xl:justify-center max-sm:gap-4">
-        <img :src="require('@/assets/traveloka_logo 2.png')" alt />
-        <img :src="require('@/assets/traveloka_logo 3.png')" alt />
-        <img :src="require('@/assets/traveloka_logo 4.png')" alt />
-        <img :src="require('@/assets/traveloka_logo 5.png')" class="max-[460px]:-mt-6" alt />
+        <div class="flex items-center gap-8 max-sm:gap-0 max-sm:flex-col">
+          <img :src="require('@/assets/traveloka_logo 2.png')" alt />
+          <img :src="require('@/assets/traveloka_logo 3.png')" alt />
+        </div>
+        <div class="flex items-center gap-8 max-sm:gap-0 max-sm:flex-col">
+          <img :src="require('@/assets/traveloka_logo 4.png')" alt />
+          <img :src="require('@/assets/traveloka_logo 5.png')" class alt />
+        </div>
       </div>
     </div>
   </div>
@@ -43,7 +47,6 @@
 
 <script>
 import MapMarkerIcon from "vue-material-design-icons/MapMarker.vue";
-
 import ChevronRightIcon from "vue-material-design-icons/ChevronRight.vue";
 
 export default {

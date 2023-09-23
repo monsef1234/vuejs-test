@@ -10,7 +10,6 @@
 
 <script>
 import TitleTwo from "@/components/TitleTwo.vue";
-
 import Reviews from "@/views/sections/reviews/reviewsWrapper/Reviews.vue";
 
 export default {

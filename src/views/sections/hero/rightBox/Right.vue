@@ -10,19 +10,19 @@
       class="absolute top-[43%] left-[48%] -translate-x-1/2 -translate-y-1/2"
     />
     <div class="self-end text-white absolute top-[530px] left-0">
-      <SwiperAchievements />
+      <Achievements />
     </div>
   </div>
 </template>
 
   <script>
-import SwiperAchievements from "@/views/sections/hero/rightBox/swiperAchievements/SwiperAchievements.vue";
+import Achievements from "@/views/sections/hero/rightBox/achievements/Achievements.vue";
 
 export default {
   name: "Right",
 
   components: {
-    SwiperAchievements
+    Achievements
   }
 };
 </script>

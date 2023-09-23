@@ -6,9 +6,13 @@
       <div class="max-xl:hidden">
         <img class="absolute top-[71px] left-[204px]" :src="require('@/assets/Ellipse 6.png')" alt />
         <img class="absolute top-[173px] left-[67px]" :src="require('@/assets/Ellipse 7.png')" alt />
-        <img class="absolute top-[143px] left-[910px]" :src="require('@/assets/Ellipse 8.png')" alt />
         <img
-          class="absolute top-[107px] left-[1040px]"
+          class="absolute top-[143px] left-[910px] min-[1500px]:left-[1135px] min-[1736px]:left-[1340px] min-[2000px]:left-[1625px]"
+          :src="require('@/assets/Ellipse 8.png')"
+          alt
+        />
+        <img
+          class="absolute top-[107px] left-[1040px] min-[1500px]:left-[1300px] min-[1736px]:left-[1545px] min-[2000px]:left-[1810px]"
           :src="require('@/assets/Ellipse 9.png')"
           alt
         />
@@ -23,12 +27,12 @@
           alt
         />
         <img
-          class="absolute top-[44px] left-[900px]"
+          class="absolute top-[44px] left-[900px] min-[1500px]:left-[1155px] min-[1736px]:left-[1415px] min-[2000px]:left-[1685px]"
           :src="require('@/assets/Rectangle 26.png')"
           alt
         />
         <img
-          class="absolute top-[197px] left-[1032px]"
+          class="absolute top-[197px] left-[1032px] min-[1500px]:left-[1275px] min-[1736px]:left-[1480px] min-[2000px]:left-[1780px]"
           :src="require('@/assets/Rectangle 27.png')"
           alt
         />

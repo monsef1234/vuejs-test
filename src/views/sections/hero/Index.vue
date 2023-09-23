@@ -13,11 +13,8 @@
   
 <script>
 import Left from "@/views/sections/hero/leftBox/Left.vue";
-
 import Right from "@/views/sections/hero/rightBox/Right.vue";
-
 import Achievements from "@/views/sections/hero/achievements/Achievements.vue";
-
 import { Fragment } from "vue-fragment";
 
 export default {

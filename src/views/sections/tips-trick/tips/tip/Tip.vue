@@ -23,7 +23,6 @@
 
 <script>
 import ClockIcon from "vue-material-design-icons/ClockTimeFive.vue";
-
 import { Fragment } from "vue-fragment";
 
 export default {

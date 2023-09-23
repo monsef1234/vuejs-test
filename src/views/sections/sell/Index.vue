@@ -3,7 +3,7 @@
     <img :src="require('@/assets/bubble4.png')" class="absolute -top-64 -right-44" alt="bubble" />
     <img
       :src="require('@/assets/bubble3.png')"
-      class="absolute -top-28 -right-80 max-xl:hidden"
+      class="absolute -top-28 -right-80 max-xl:hidden min-[1800px]:hidden"
       alt="bubble"
     />
     <Title title="Ready to Sell!" />
@@ -18,9 +18,7 @@
 
 <script>
 import Title from "@/components/Title.vue";
-
 import LeftBox from "@/views/sections/sell/leftBox/LeftBox.vue";
-
 import RightBox from "@/views/sections/sell/rightBox/RightBox.vue";
 
 export default {

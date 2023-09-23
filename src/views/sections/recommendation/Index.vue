@@ -8,7 +8,7 @@
     <div
       class="pl-[40px] max-sm:pl-0 flex items-center max-lg:gap-3 max-lg:flex-col justify-between"
     >
-      <h1 class="text-[32px] text-textColorPrimary font-[500]">Featured House</h1>
+      <h1 class="max-lg:text-largeText text-[32px] text-textColorPrimary font-[500]">Featured House</h1>
       <div class="flex items-center justify-center gap-8 mr-4 flex-wrap">
         <button class="recommend" :class="{ 'active': isActive == 'house' }" @click="houseHandler">
           <home-icon />House
@@ -71,15 +71,10 @@
 
 <script>
 import Title from "@/components/Title.vue";
-
 import Cards from "@/views/sections/recommendation/cards/Cards.vue";
-
 import HomeIcon from "vue-material-design-icons/Home.vue";
-
 import ChevronRight from "vue-material-design-icons/ChevronRight.vue";
-
 import ChevronLeft from "vue-material-design-icons/ChevronLeft.vue";
-
 import { ref } from "vue";
 
 const swiperRef = ref();
