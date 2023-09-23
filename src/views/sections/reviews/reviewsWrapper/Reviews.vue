@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Review from "@/views/sections/reviews/reviews/review/Review.vue";
+import Review from "@/views/sections/reviews/reviewsWrapper/review/Review.vue";
 
 export default {
   name: "Reviews",
