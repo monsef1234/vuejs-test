@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+    @apply overflow-x-hidden
+}
+body {
+    @apply font-lexend relative overflow-hidden
+}
+.buttonNav {
+    @apply bg-transparent text-[#F0F3FD] border border-[#F0F3FD] rounded-full
+}
+.button {
+    @apply bg-buttonColorSecondary py-3 px-6 rounded-full text-buttonColorPrimary font-bold text-smallText cursor-pointer
+}
+.active {
+    @apply  !bg-buttonColorSecondary  !text-buttonColorPrimary border-[#F0F3FD] 
+}
+.recommend {
+    @apply text-[#888B97] py-2 px-4 flex items-center gap-2 text-mediumText max-lg:text-normalText !font-normal bg-transparent  border border-[#F0F3FD] rounded-full cursor-pointer transition-all
+}
+.vifnslb-container {
+    @apply !overflow-y-visible !overflow-x-hidden
+}
+.vifnslb-element {
+    @apply !overflow-y-visible !overflow-x-hidden gap-14 
+}
+.swiper-wrapper {
+    @apply items-center
+}
+@layer utilities {
+    .text-stroke {
+        -webkit-text-stroke: 1px #1B1C57;
+        text-stroke: 1px #1B1C57;
+    }
+}
